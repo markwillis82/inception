@@ -1,6 +1,14 @@
 {
+  "author": "Mark Willis <mark.w@immat.co.uk>",
   "description": "Inception - Encrypting node.JS files",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/markwillis82/inception.git"
+  },
+  "engines": {
+    "node": "~0.6.6"
+  },
   "dependencies": {
     "flatiron": "0.1.16",
     "colors": "*",
