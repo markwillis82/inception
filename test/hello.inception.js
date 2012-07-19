@@ -1,0 +1,1 @@
+var number = require("number-script");var ctx = { require : function (name) { if (name === "number-script") { return number;} else { return require(name); } }, console : console, process : process};var p = "10471757114436487291075411471919503971120929524869008277744076274442";number.run(p, ctx, function (err) { if (err) console.error(err); console.log("done");});

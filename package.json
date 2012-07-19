@@ -1,0 +1,19 @@
+{
+  "description": "Inception - Encrypting node.JS files",
+  "version": "0.0.1",
+  "dependencies": {
+    "flatiron": "0.1.16",
+    "colors": "*",
+    "number-script": "*"
+  },
+  "devDependencies": {
+    "cli-easy": "0.1.0",
+    "vows": "0.6.1"
+  },
+  "scripts": {
+    "test": "vows --spec",
+    "start": "node app.js"
+  },
+  "name": "inception",
+  "bin": "./app.js"
+}
