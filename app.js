@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var flatiron = require('flatiron'),
     path = require('path'),
     app = flatiron.app;
